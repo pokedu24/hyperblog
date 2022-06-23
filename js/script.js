@@ -5,6 +5,7 @@ function sumar()
 {
     let resultado = this.a + this.b;
     console.log('El resultado de la suma entre ' + this.a + ' + ' + this.b + ' es: ' + resultado);
+    alert(resultado);
 }
 
 sumar();
